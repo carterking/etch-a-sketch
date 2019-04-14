@@ -1,4 +1,3 @@
-console.log("we are ready!");
 const mainContainer = document.getElementById("main-container");
 const mainContainerWidth = mainContainer.offsetWidth;
 let i;
