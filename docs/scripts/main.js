@@ -9,7 +9,6 @@ function createGrid() {
     let squaresPerSide = prompt("How many squares per side do you want in the grid?");
     let totalSquares = Math.pow(squaresPerSide, 2);
     let squaresWidth = mainContainerWidth / squaresPerSide
-    document.getElementById("number-of-squares").textContent = totalSquares;
     for (i = 0; i < totalSquares; i++) {
         let x = document.createElement("div")
         mainContainer.appendChild(x);
